@@ -1,5 +1,7 @@
 FROM jboss/base-jdk:7
 
+LABEL maintainer="mail@gdietz.de"
+
 ENV JBOSS_AS_VERSION 7.1.1.Final
 ENV JBOSS_AS_SHA1 fcec1002dce22d3281cc08d18d0ce72006868b6f
 ENV JBOSS_HOME /opt/jboss/as
