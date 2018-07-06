@@ -1,3 +1,4 @@
 .dockerignore
 Dockerfile
 build.sh
+README.md
